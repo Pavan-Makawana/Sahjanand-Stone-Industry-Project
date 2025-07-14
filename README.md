@@ -1,1 +1,1 @@
-# 1.-Sahjanand-Stone-Industry-Project
+# Sahjanand-Stone-Industry-Project
