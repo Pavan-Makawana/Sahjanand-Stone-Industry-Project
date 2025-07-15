@@ -1,0 +1,161 @@
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#menu:hover{
+   scale: 0.9;
+}
+
+.bar{
+    height: 5px;
+    /* width: 100%; */
+    background-color: #fff;
+    display: block;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    
+}
+
+#bar1{
+    transform: translateY(-4px);
+}
+
+#bar3{
+    transform: translateY(4px);
+}
+
+.nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .nav li :hover{
+    border-top: 2px #fc0303 solid;
+    border-bottom: 2px #fe0303 solid;
+    border-radius: 15px;
+    padding:10px;
+    transition: 0.3s;
+    font-size: 22px;
+} */
+
+#li-2{
+    text-align: center;
+}
+
+#li-2 #b-2{
+    position: relative;
+    right: -16%;
+    font-size: 25px;
+    display: none;
+}
+
+#li-2 #b-1{
+    position: relative;
+    right: -16%;
+    font-size: 25px;
+    
+}
+
+#li-2 ul{
+    display: none;
+    margin-top: 15px;
+}
+.nav li:hover{
+    background-color: #434141;
+}
+#li-2-ul li:hover {
+    background: transparent;
+    background-color: #050505;
+}
+#li-2:hover ul{
+    display: block;
+    background-color: #434141;
+
+}
+
+#li-2:hover #b-1{
+    display: none;
+}
+
+#ul-li-1{
+    border-top: 2px solid rgb(255, 255, 255);
+}
+#li-2:hover #b-2{
+    display: inline;
+    font-size: 30px;
+    top: -11px;
+    z-index: 200;
+}
+
+.nav li{
+    list-style: none;
+    padding: 25px 0;
+    width: 100%;
+    text-align: center;
+}
+
+#li-2-ul-li-6{
+    margin-bottom: -25px;
+    border-bottom: 0;
+}
+
+.nav{
+    padding: 0;
+    margin: 0;
+    transition: 1s ease;
+    display: none;
+    overflow: auto;
+    
+}
+
+#li-home {
+    border-top: 2px solid rgb(255, 255, 255);
+}
+
+#li-contact{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.icon .bar{
+    background-color: #fc0a06;
+
+}
+
+.icon #bar1{
+    transform: translateY(4px) rotate(-45deg);
+
+}
+
+.icon #bar3{
+    transform: translateY(-6px) rotate(45deg);
+    
+}
+
+.icon #bar2{
+  opacity: 0;
+    
+}
+
+.change{
+    background-color: #080808;
+    height: 100vh;
+    margin: 0;
+    position: absolute;
+    font-size: 20px;
+    top: 40px;
+    z-index: -100;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30PX;
+}
+
+.nav li{
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}

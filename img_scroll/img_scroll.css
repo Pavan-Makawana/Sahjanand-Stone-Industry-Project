@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slider_box{
+    width: 40%;                 
+    margin-left: 30%;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow:2px 3px 10px rgb(7,7,7);
+}
+
+#slider{
+    width: 100%;
+    display: inline-flex;
+    transition: 0.7s;
+}
+
+#slider img{
+    width: 100%;
+}
+
+.indicators span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background:rgba(62, 61, 61, 0.5);
+    cursor: pointer;
+}
+
+.indicators{
+    text-align: center;
+}
+
+.active{
+    background:#060606 !important;
+}
