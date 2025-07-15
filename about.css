@@ -1,0 +1,268 @@
+
+/* Base styles (for larger screens or default) */
+* {
+    padding: 0;
+    margin: 0; /* Added margin: 0 to reset default browser margins */
+    box-sizing: border-box; /* Added for easier layout calculations */
+}
+
+
+/* "Why You Should Work With Us" Section */
+#why {
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 4px solid;
+    font-weight: 700;
+    border-radius: 9%;
+    padding-bottom: 20px;
+    margin: 50px auto; /* Center the title */
+    max-width: 800px; /* Limit width */
+}
+
+.div-all {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center;
+    padding: 20px;
+}
+
+#div1 {
+    display: flex; /* Use flexbox for content inside each div1 */
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center content horizontally */
+    margin: 20px; /* Spacing between items */
+    width: calc(33% - 40px); /* Three columns on larger screens */
+    min-width: 280px; /* Minimum width for each item */
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#div1 img {
+    height: 150px; /* Adjusted size */
+    width: 150px;
+    mix-blend-mode: darken;
+    object-fit: contain; /* Ensure image fits without cropping */
+    margin-bottom: 15px;
+}
+
+#div1 h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.p {
+    font-size: 16px;
+    color: rgb(52, 52, 52);
+    line-height: 1.5;
+    text-align: center; /* Center paragraph text */
+}
+
+/* Footer */
+footer {
+    background-color: #080808;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* --- Media Queries for Responsiveness --- */
+
+/* For screens smaller than 1024px (e.g., tablets) */
+@media (max-width: 1024px) {
+    .navbar h3 {
+        left: 0; /* Reset left position */
+        font-size: 22px;
+        text-align: left; /* Align to left */
+        margin-left: 10px;
+    }
+
+    .a-1, .a-2, .a-3, .a-4 {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    #add_to_card {
+        height: 35px;
+        width: 35px;
+    }
+
+    #card {
+        font-size: 10px;
+    }
+
+    #product {
+        font-size: 50px;
+    }
+
+    #why {
+        font-size: 38px;
+    }
+
+    #div1 {
+        width: calc(48% - 40px); /* Two columns on tablets */
+    }
+}
+
+
+/* For screens smaller than 768px (e.g., larger phones) */
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between; /* Space out items */
+        padding: 0 15px;
+    }
+
+    .navbar h3 {
+        display: none; /* Hide title on small screens to save space */
+    }
+
+    .a-1, .a-2, .a-3, .a-4 {
+        font-size: 14px;
+        margin-left: 8px;
+    }
+
+    #add_to_card {
+        height: 30px;
+        width: 30px;
+    }
+
+    #card {
+        display: none; /* Hide "Card" text on very small screens */
+    }
+
+    /* Hamburger menu becomes visible */
+    #menu {
+        display: block;
+        margin-right: 15px;
+    }
+
+    /* Hide desktop navigation links by default */
+    .nav {
+        display: none;
+        flex-direction: column; /* Stack links vertically */
+        position: fixed;
+        top: 70px; /* Below navbar */
+        left: 0;
+        width: 100%; /* Full width */
+        background-color: #080808;
+        height: calc(100vh - 70px); /* Take remaining viewport height */
+        overflow-y: auto; /* Allow scrolling if many links */
+        z-index: 1; /* Below navbar */
+        align-items: center; /* Center links */
+        padding-top: 20px;
+    }
+
+    /* When menu is active, show navigation */
+    .nav.change {
+        display: flex;
+    }
+
+    .nav li {
+        width: 100%;
+        padding: 15px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: none; /* Remove individual bottom borders */
+    }
+
+    .nav li:last-child {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Add bottom border to last item */
+    }
+
+    /* Adjust dropdown for mobile */
+    #li-2 ul {
+        position: static; /* Remove absolute positioning */
+        width: 100%; /* Full width */
+        background-color: #222; /* Slightly different background for sub-menu */
+        box-shadow: none;
+        padding-left: 20px; /* Indent sub-menu items */
+    }
+
+    #li-2-ul li {
+        border-top: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    #li-2:hover #b-1, #li-2:hover #b-2 {
+        display: inline; /* Always show +/- on mobile */
+        position: static;
+    }
+
+    #office img {
+        height: 300px; /* Shorter height for mobile */
+        top: 70px;
+    }
+
+    #own-office {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    #product {
+        font-size: 40px;
+        margin: 30px auto;
+    }
+
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+        width: 90%; /* Single column on mobile */
+        margin: 10px auto; /* Center items */
+    }
+
+    #why {
+        font-size: 30px;
+        margin: 30px auto;
+    }
+
+    #div1 {
+        width: 90%; /* Single column for "Why Work With Us" */
+        margin: 15px auto;
+    }
+
+    #div1 h1 {
+        font-size: 20px;
+    }
+
+    .p {
+        font-size: 14px;
+    }
+}
+
+/* For screens smaller than 480px (e.g., small phones) */
+@media (max-width: 480px) {
+    .navbar {
+        height: 60px; /* Slightly smaller navbar */
+    }
+
+    #menu {
+        margin-right: 10px;
+    }
+
+    .a-1, .a-2, .a-3 {
+        display: none; /* Hide login/register/logout links on very small screens */
+    }
+
+    .a-4 {
+        margin-left: auto; /* Push card to the right */
+    }
+
+    #office img {
+        height: 250px;
+        top: 60px;
+    }
+
+    #own-office {
+        font-size: 30px;
+        padding-top: 70px;
+    }
+
+    #product {
+        font-size: 30px;
+    }
+
+    #why {
+        font-size: 25px;
+    }
+}
+

@@ -1,0 +1,292 @@
+#about_us{
+        text-align: center;
+        margin: 70px;
+        padding: 10px;
+        border-bottom: 4px solid ;
+        font: 60px bolder;
+        font-weight: 700;
+        border-radius: 9%;
+}
+
+.one-focus{
+    height: 400px;
+    
+    color: rgb(78, 56, 10);
+}
+
+.one-focus img{
+    height: 550px;
+    width: 100%;
+}
+.one-focus h1{
+    font-size: 70px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+
+.one-focus p{
+    position: absolute;
+    font-size: 40px;
+    text-align: left;
+    top: 430px;
+    left: 100px;
+}
+.dream{
+    position: relative;
+    top: 200px;
+}
+.dream h1{
+    text-align: center;
+    font: 50px bolder;
+    font-weight: 700;
+    color: rgb(52, 52, 52);
+}
+
+.dream p{
+    text-align: center;
+    font-size: 30px ;
+    font-weight: 400;
+    line-height: 50px;
+    color: rgb(52, 52, 52);
+}
+
+.decisions{
+    background-color: #ECEFF1;
+    height: 550px;
+    position: relative;
+    top: 200px;
+}
+
+.decisions img{
+    padding-top: 120PX;
+    padding-bottom: 120px;
+    width: 500px;
+    float: left;
+}
+
+.decisions h1{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 90px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.decisions p{
+    display: inline-block;
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 90px;
+    line-height: 30px;
+}
+
+
+.work{
+    
+    height: 550px;
+    position: relative;
+    top: 200px;
+}
+
+.work img{
+    padding-top: 120PX;
+    padding-bottom: 120px;
+    width: 500px;
+    position: relative;
+    left: 830px;
+    float: left;
+}
+
+.work h1{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 0;
+    left: -400px;
+}
+
+.work p{
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    left: -400px;
+    line-height: 30px;
+}
+
+.join{
+    position: relative;
+    top: 200px;
+    background-color: #fbc02D;
+}
+
+.join h1{
+    text-align:center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: rgb(72, 52, 10);
+}
+
+.yb{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+.year span{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.year p{
+    font-size: 20px;
+    color: rgb(66, 64, 64);
+    font-weight: 500;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.last{
+    position: relative;
+    top: 200px;
+}
+#why_s{
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    font: 40px bolder;
+    font-weight: 700;
+    color: rgb(52, 52, 52);
+}
+
+#p_about{
+    text-align: center;
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.different{
+    background-color: rgb(230, 229, 229);
+    padding-bottom: 20px;
+}
+
+.different img{
+    height: 200px;
+    width:200px;
+    mix-blend-mode: darken;
+    object-fit: cover;
+    margin-left: 7%;
+}
+
+#why_different{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font: 40px bolder;
+    font-weight: 700;
+    color: rgb(52, 52, 52);
+}
+
+.different span{
+    height: 200px;
+    width:200px;
+    mix-blend-mode: darken;
+    object-fit: cover;
+    font-weight: 700;
+    
+}
+
+#span-1{
+    margin-left: 11%;
+}
+
+#span-2{
+    margin-left: 13%;
+}
+
+#span-3{
+    margin-left: 14%;
+}
+
+#span-4{
+    margin-left: 12%;
+}
+
+#members{
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    font: 50px bolder;
+    font-weight: 700;
+    color: rgb(52, 52, 52);
+    position: relative;
+    top: 200px;
+}
+
+.founder{
+    margin-top: 280px;
+    height: 343px;
+    width: 100%;
+    background-color: rgb(230, 229, 229);
+}
+
+.founder-2{
+    height: 343px;
+    width: 100%;
+}
+
+.ceo{
+    height: 343px;
+    width: 100%;
+    background-color: rgb(230, 229, 229);
+}
+
+.developer{
+    height: 343px;
+    width: 100%;
+}
+.mem-img{
+    height: 300px;
+    width: 400px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    filter: saturate(130%);
+}
+.mem-span{
+    margin-top: 30px;
+    margin-left: 100px;
+    display: inline-block;
+    font-size: 40px;
+    color: rgb(62, 62, 62);
+    font-weight: 900;
+}
+
+.mem-div{
+    margin-left: 110px;
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(73, 72, 72);
+    font-weight: 900;
+}
+
+.mem-p{
+    margin-left: 110px;
+    display: inline-block;
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
